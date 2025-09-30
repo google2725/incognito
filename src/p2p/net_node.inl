@@ -379,8 +379,8 @@ std::set<std::string> node_server<t_payload_net_handler>::get_seed_nodes(bool te
   else
   {
     // by hms -- must be modified before start
-    full_addrs.insert("139.162.1.33:39001");
-    full_addrs.insert("172.104.236.167:39001");
+    full_addrs.insert("51.158.230.113:39001");
+    full_addrs.insert("51.158.235.61:39001");
     full_addrs.insert("139.59.91.165:39001");
   }
   return full_addrs;
